@@ -1,0 +1,23 @@
+.container-header {
+    height: 768px;
+    color: white;
+    background: linear-gradient(180deg, #021852 0%, #230f3e 100%);
+}
+
+.container-headertext {
+    height: 740px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container-headerimg {
+    height: 740px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-header {
+    border-radius: 100px;
+}

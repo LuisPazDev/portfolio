@@ -1,0 +1,19 @@
+.container-about {
+    height: 556px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    background: linear-gradient(180deg, #ffffff 0%, #dce2f2 20.31%);
+}
+
+.about-title {
+    color: #08a689;
+}
+
+.about-text {
+    color: #282828;
+    text-align: justify;
+    font-size: 18px;
+    line-height: 30px;
+}

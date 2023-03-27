@@ -1,0 +1,30 @@
+.container-skills {
+    background: url(../assets/skillsbg.png);
+    height: 556px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.skills-title {
+    background: rgba(0, 0, 0, 0.44);
+    color: #ffffff;
+    text-align: center;
+}
+
+.skills-list {
+    background: rgba(0, 0, 0, 0.44);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.skills-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

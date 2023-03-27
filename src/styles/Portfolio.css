@@ -1,0 +1,27 @@
+.portfolio-project1 {
+    background: url(../assets/djstore.png);
+    background-size: cover;
+    background-position: center;
+    width: 350px;
+    height: 280px;
+}
+
+.portfolio-project2 {
+    background: url(../assets/djstore.png);
+    background-size: cover;
+    background-position: center;
+    width: 350px;
+    height: 280px;
+}
+
+.portfolio-project3 {
+    background: url(../assets/djstore.png);
+    background-size: cover;
+    background-position: center;
+    width: 350px;
+    height: 280px;
+}
+
+.portfolio-project-text {
+    color: #fff;
+}
