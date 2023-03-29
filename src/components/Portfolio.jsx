@@ -18,12 +18,12 @@ export const Portfolio = () => {
                             <h5>Dj Store</h5>
                         </div>
                     </Col>
-                    <Col className='portfolio-project2 ms-5'>
+                    <Col className='portfolio-project2 ms-4'>
                         <div>
                             <i>Project 1</i>
                         </div>
                     </Col>
-                    <Col className='portfolio-project3 ms-5'>
+                    <Col className='portfolio-project3 ms-4'>
                         <div>
                             <i>Project 1</i>
                         </div>
