@@ -7,7 +7,7 @@ import logo from "../assets/luispazdevlogo.svg"
 export const NavBar = () => {
     return (
         <Navbar className='nav-bar' variant='dark'>
-            <Container>
+            <Container className='p-2'>
                 <Navbar.Brand href='#home'>
                     <img src={logo} alt='logo' className='logo' />
                 </Navbar.Brand>

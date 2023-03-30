@@ -17,7 +17,7 @@ import firebase from "../assets/firebase.svg"
 export const Skills = () => {
     return (
         <Container fluid id='skills' className='container-skills p-5'>
-            <div className='skills-title p-4'>
+            <div className='skills-title p-4 mt-4 mb-4'>
                 <h1>
                     <i>My Skills</i>
                 </h1>
@@ -25,11 +25,11 @@ export const Skills = () => {
                     <i>Programming Skills</i>
                 </h5>
             </div>
-            <Container className=' mt-3'>
-                <Row className='skills-list mt-3 p-4'>
-                    <Col className='skills-col'>
+            <Container className=' p-4'>
+                <Row className='skills-list mt-3 p-5'>
+                    <Col className='skills-col p-2'>
                         <ul>
-                            <li className='mb-3'>
+                            <li className='mb-4'>
                                 <img
                                     className='skills-logo me-2'
                                     src={html}
@@ -37,7 +37,7 @@ export const Skills = () => {
                                 />
                                 <i>Html</i>
                             </li>
-                            <li className='mb-3'>
+                            <li className='mb-4'>
                                 <img
                                     className='skills-logo me-2'
                                     src={css}
@@ -45,7 +45,7 @@ export const Skills = () => {
                                 />
                                 <i>Css</i>
                             </li>
-                            <li className='mb-3'>
+                            <li className='mb-4'>
                                 <img
                                     className='skills-logo me-2'
                                     src={sass}
@@ -63,9 +63,9 @@ export const Skills = () => {
                             </li>
                         </ul>
                     </Col>
-                    <Col className='skills-col'>
+                    <Col className='skills-col p-2'>
                         <ul>
-                            <li className='mb-3'>
+                            <li className='mb-4'>
                                 <img
                                     className='skills-logo me-2'
                                     src={javascript}
@@ -73,7 +73,7 @@ export const Skills = () => {
                                 />
                                 <i>Javascript</i>
                             </li>
-                            <li className='mb-3'>
+                            <li className='mb-4'>
                                 <img
                                     className='skills-logo me-2'
                                     src={react}
@@ -81,7 +81,7 @@ export const Skills = () => {
                                 />
                                 <i>React</i>
                             </li>
-                            <li className='mb-3'>
+                            <li className='mb-4'>
                                 <img
                                     className='skills-logo me-2'
                                     src={vue}
@@ -99,9 +99,9 @@ export const Skills = () => {
                             </li>
                         </ul>
                     </Col>
-                    <Col className='skills-col'>
+                    <Col className='skills-col p-2'>
                         <ul>
-                            <li className='mb-3'>
+                            <li className='mb-4'>
                                 <img
                                     className='skills-logo me-2'
                                     src={node}
@@ -109,7 +109,7 @@ export const Skills = () => {
                                 />
                                 <i>Node</i>
                             </li>
-                            <li className='mb-3'>
+                            <li className='mb-4'>
                                 <img
                                     className='skills-logo me-2'
                                     src={express}
@@ -117,7 +117,7 @@ export const Skills = () => {
                                 />
                                 <i>Express.js</i>
                             </li>
-                            <li className='mb-3'>
+                            <li className='mb-4'>
                                 <img
                                     className='skills-logo me-2'
                                     src={mongodb}

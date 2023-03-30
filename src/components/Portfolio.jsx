@@ -5,14 +5,14 @@ import "../styles/Portfolio.css"
 export const Portfolio = () => {
     return (
         <Container fluid id='portfolio' className='container-portfolio p-5'>
-            <Row>
+            <Row className='mt-5 mb-5'>
                 <Col className='text-center'>
                     <h1>Portfolio</h1>
                     <h4>Recent Projects</h4>
                 </Col>
             </Row>
-            <Container className='mt-5'>
-                <Row>
+            <Container className='mt-5 mb-5'>
+                <Row className='p-3'>
                     <Col className='portfolio-project1 text-center'>
                         <div className='portfolio-project-text'>
                             <h5>Dj Store</h5>
