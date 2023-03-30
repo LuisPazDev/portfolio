@@ -16,7 +16,7 @@ import firebase from "../assets/firebase.svg"
 
 export const Skills = () => {
     return (
-        <Container fluid className='container-skills p-5'>
+        <Container fluid id='skills' className='container-skills p-5'>
             <div className='skills-title p-4'>
                 <h1>
                     <i>My Skills</i>

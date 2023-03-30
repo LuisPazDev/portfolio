@@ -6,7 +6,7 @@ import "../styles/Contact.css"
 
 export const Contact = () => {
     return (
-        <Container fluid className='container-contact p-5'>
+        <Container fluid id='contact' className='container-contact p-5'>
             <Row className='text-center'>
                 <Col>
                     <h1>Contact Me</h1>

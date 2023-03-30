@@ -4,7 +4,7 @@ import "../styles/Portfolio.css"
 
 export const Portfolio = () => {
     return (
-        <Container fluid className='container-portfolio p-5'>
+        <Container fluid id='portfolio' className='container-portfolio p-5'>
             <Row>
                 <Col className='text-center'>
                     <h1>Portfolio</h1>
