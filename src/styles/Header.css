@@ -18,3 +18,10 @@
 .img-header {
     border-radius: 50px;
 }
+
+.btn {
+    background-color: black;
+    color: white;
+    font-size: 19px;
+    font-weight: 700;
+}
