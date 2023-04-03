@@ -1,6 +1,8 @@
 import { Col, Container, Row } from "react-bootstrap"
 import "../styles/Portfolio.css"
-import { ProjectCard } from "./ProjectCard"
+import { ProjectCard1 } from "./ProjectCard1"
+import { ProjectCard2 } from "./ProjectCard2"
+import { ProjectCard3 } from "./ProjectCard3"
 
 export const Portfolio = () => {
     return (
@@ -11,15 +13,15 @@ export const Portfolio = () => {
                     <h4>Recent Projects</h4>
                 </Col>
             </Row>
-            <Row>
+            <Row className='mt-3 mb-5'>
                 <Col>
-                    <ProjectCard />
+                    <ProjectCard1 />
                 </Col>
                 <Col>
-                    <ProjectCard />
+                    <ProjectCard2 />
                 </Col>
                 <Col>
-                    <ProjectCard />
+                    <ProjectCard3 />
                 </Col>
             </Row>
         </Container>

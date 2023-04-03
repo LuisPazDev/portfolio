@@ -1,6 +1,25 @@
 .container-portfolio-project1 {
-    background-color: wheat;
-    width: 300px;
+    background: url(../assets/djstore.png);
+    background-size: cover;
+    width: 400px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+}
+
+.container-portfolio-project2 {
+    background: url(../assets/pizzapp.png);
+    background-size: cover;
+    width: 400px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+}
+
+.container-portfolio-project3 {
+    background: url(../assets/djstore.png);
+    background-size: cover;
+    width: 400px;
     height: 250px;
     display: flex;
     align-items: center;
@@ -11,6 +30,24 @@
 }
 
 .card-project-modal {
-    background: rgba(0, 0, 0, 0.589);
+    background: rgba(0, 0, 0, 0.767);
+}
+
+.portfolio-card-title {
     color: #08a689;
+    font-size: 22px;
+}
+
+.portfolio-card-text {
+    color: #fff !important;
+    font-size: 16px;
+}
+
+.portfolio-btn {
+    background: #08a689;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
 }
