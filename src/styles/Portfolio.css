@@ -1,27 +1,16 @@
-.portfolio-project1 {
-    background: url(../assets/djstore.png);
-    background-size: cover;
-    background-position: center;
-    width: 350px;
-    height: 280px;
-}
-
-.portfolio-project2 {
-    background: url(../assets/djstore.png);
-    background-size: cover;
-    background-position: center;
-    width: 350px;
-    height: 280px;
-}
-
-.portfolio-project3 {
-    background: url(../assets/djstore.png);
-    background-size: cover;
-    background-position: center;
-    width: 350px;
-    height: 280px;
+.container-portfolio-project1 {
+    background-color: wheat;
+    width: 300px;
+    height: 250px;
+    display: flex;
+    align-items: center;
 }
 
 .portfolio-project-text {
     color: #fff;
+}
+
+.card-project-modal {
+    background: rgba(0, 0, 0, 0.589);
+    color: #08a689;
 }

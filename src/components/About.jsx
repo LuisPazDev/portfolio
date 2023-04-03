@@ -6,7 +6,7 @@ export const About = () => {
     return (
         <Container fluid id='about' className='container-about p-5 mt-3 mb-5'>
             <h1 className='about-title p-5'>About Me</h1>
-            <div className='ms-5 me-5'>
+            <div className='ms-5 me-5 p-2'>
                 <p className='about-text'>
                     I am a{" "}
                     <strong>

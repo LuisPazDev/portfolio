@@ -4,7 +4,7 @@ import luisimg from "../assets/luispazdevmain.png"
 
 export const HeaderImg = () => {
     return (
-        <Container className='container-headerimg p-5'>
+        <Container className='container-headerimg mt-3 mb-3 p-3'>
             <div className='container-img'>
                 <img src={luisimg} alt='luispazdev' className='img-header' />
             </div>
