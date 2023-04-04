@@ -1,7 +1,7 @@
 .container-portfolio-project1 {
     background: url(../assets/djstore.png);
     background-size: cover;
-    width: 400px;
+    width: 380px;
     height: 250px;
     display: flex;
     align-items: center;
@@ -10,7 +10,7 @@
 .container-portfolio-project2 {
     background: url(../assets/pizzapp.png);
     background-size: cover;
-    width: 400px;
+    width: 380px;
     height: 250px;
     display: flex;
     align-items: center;
@@ -19,7 +19,7 @@
 .container-portfolio-project3 {
     background: url(../assets/easyshoes.png);
     background-size: cover;
-    width: 400px;
+    width: 380px;
     height: 250px;
     display: flex;
     align-items: center;

@@ -7,23 +7,25 @@ import { ProjectCard3 } from "./ProjectCard3"
 export const Portfolio = () => {
     return (
         <Container fluid id='portfolio' className='container-portfolio p-5'>
-            <Row className='mt-5 mb-5'>
+            <Row className='mt-4 mb-5'>
                 <Col className='text-center'>
                     <h1>Portfolio</h1>
                     <h4>Recent Projects</h4>
                 </Col>
             </Row>
-            <Row className='mt-3 mb-5'>
-                <Col>
-                    <ProjectCard1 />
-                </Col>
-                <Col>
-                    <ProjectCard2 />
-                </Col>
-                <Col>
-                    <ProjectCard3 />
-                </Col>
-            </Row>
+            <Container className='mt-4'>
+                <Row className='mt-4 mb-2' xs={1} sm={1} md={1} lg={3} xl={3}>
+                    <Col className='d-flex justify-content-center align-items-center mb-5'>
+                        <ProjectCard1 />
+                    </Col>
+                    <Col className='d-flex justify-content-center align-items-center mb-5'>
+                        <ProjectCard2 />
+                    </Col>
+                    <Col className='d-flex justify-content-center align-items-center mb-5'>
+                        <ProjectCard3 />
+                    </Col>
+                </Row>
+            </Container>
         </Container>
     )
 }
