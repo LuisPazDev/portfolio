@@ -17,7 +17,7 @@ export const ProjectModal3 = () => {
                 </Card.Subtitle>
                 <Button className='mb-3 portfolio-btn'>
                     <a
-                        href='https://luispazdev.github.io/proyecto1/'
+                        href='https://luispazdev.github.io/easyshoes-fe/'
                         target='_blank'
                         rel='noreferrer'>
                         Visit
