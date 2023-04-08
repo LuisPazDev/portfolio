@@ -7,7 +7,7 @@
 }
 
 .skills-title {
-    background: rgba(0, 0, 0, 0.219);
+    background: rgba(0, 0, 0, 0.164);
     color: #ffffff;
     text-align: center;
 }
@@ -17,7 +17,7 @@ li {
 }
 
 .skills-list {
-    background: rgba(0, 0, 0, 0.322);
+    background: rgba(0, 0, 0, 0.171);
     display: flex;
     align-items: center;
     justify-content: center;

@@ -26,7 +26,13 @@ export const Skills = () => {
                 </h5>
             </div>
             <Container className=' p-4'>
-                <Row className='skills-list mt-3 p-5'>
+                <Row
+                    className='skills-list mt-3 p-5'
+                    xs={1}
+                    sm={1}
+                    md={2}
+                    lg={3}
+                    xl={3}>
                     <Col className='skills-col p-2'>
                         <ul>
                             <li className='mb-4'>
@@ -48,18 +54,18 @@ export const Skills = () => {
                             <li className='mb-4'>
                                 <img
                                     className='skills-logo me-2'
-                                    src={sass}
-                                    alt='sasslogo'
-                                />
-                                <i>Sass</i>
-                            </li>
-                            <li>
-                                <img
-                                    className='skills-logo me-2'
                                     src={bootstrap}
                                     alt='bootstaplogo'
                                 />
                                 <i>Bootstrap</i>
+                            </li>
+                            <li>
+                                <img
+                                    className='skills-logo me-2'
+                                    src={sass}
+                                    alt='sasslogo'
+                                />
+                                <i>Sass</i>
                             </li>
                         </ul>
                     </Col>

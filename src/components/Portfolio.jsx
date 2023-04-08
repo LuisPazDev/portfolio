@@ -8,7 +8,7 @@ export const Portfolio = () => {
     return (
         <Container fluid id='portfolio' className='container-portfolio p-5'>
             <Row className='mt-4 mb-5'>
-                <Col className='text-center'>
+                <Col className='text-center mt-3'>
                     <h1>Portfolio</h1>
                     <h4>Recent Projects</h4>
                 </Col>
