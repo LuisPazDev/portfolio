@@ -13,12 +13,12 @@ export const Contact = () => {
                     <h4>Get In Touch</h4>
                 </Col>
             </Row>
-            <Row className='mt-4 mb-4'>
-                <Col>
-                    <ContactInfo />
-                </Col>
+            <Row className='mt-4 mb-4' xs={1} md={1} lg={2} xl={2}>
                 <Col>
                     <ContactForm />
+                </Col>
+                <Col>
+                    <ContactInfo />
                 </Col>
             </Row>
         </Container>

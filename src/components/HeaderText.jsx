@@ -3,7 +3,7 @@ import { Button, Container } from "react-bootstrap"
 
 export const HeaderText = () => {
     return (
-        <Container className='container-headertex mt-3 mb-3 p-4'>
+        <Container className='container-headertex mt-3 mb-3 p-3'>
             <div className='container-text mt-3 p-3'>
                 <h4>Hi There!</h4>
                 <h1>I’m Luis Paz</h1>

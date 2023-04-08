@@ -6,7 +6,7 @@ import "../styles/Header.css"
 export const Header = () => {
     return (
         <Container fluid id='home' className='container-header p-5'>
-            <Row className='mt-5 mb-5'>
+            <Row className='mt-4 mb-4' xs={1} md={1} lg={2} xl={2}>
                 <Col className='mt-3'>
                     <HeaderText />
                 </Col>

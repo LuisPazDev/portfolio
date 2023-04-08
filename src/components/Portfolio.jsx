@@ -14,7 +14,7 @@ export const Portfolio = () => {
                 </Col>
             </Row>
             <Container className='mt-4'>
-                <Row className='mt-4 mb-2' xs={1} sm={1} md={1} lg={3} xl={3}>
+                <Row className='mt-4 mb-2' xs={1} sm={1} md={1} lg={1} xl={3}>
                     <Col className='d-flex justify-content-center align-items-center mb-5'>
                         <ProjectCard1 />
                     </Col>

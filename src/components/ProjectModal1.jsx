@@ -8,11 +8,11 @@ export const ProjectModal1 = () => {
             className='card-project-modal text-center ms-auto me-auto '
             style={{ width: "20rem" }}>
             <Card.Body>
-                <Card.Title className='portfolio-card-title mb-3'>
+                <Card.Title className='portfolio-card-title mt-3 mb-3'>
                     {" "}
                     Dj Store{" "}
                 </Card.Title>
-                <Card.Subtitle className='portfolio-card-text mb-3 text-muted'>
+                <Card.Subtitle className='portfolio-card-text mb-4 text-muted'>
                     Landing Page
                 </Card.Subtitle>
                 <Button className='mb-3 portfolio-btn'>
