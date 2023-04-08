@@ -48,3 +48,8 @@
     color: #fff;
     border: none;
 }
+.portfolio-btn:hover {
+    background: #fff;
+    color: black;
+    border: 1px solid #08a689;
+}

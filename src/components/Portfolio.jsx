@@ -9,8 +9,13 @@ export const Portfolio = () => {
         <Container fluid id='portfolio' className='container-portfolio p-5'>
             <Row className='mt-4 mb-5'>
                 <Col className='text-center mt-3'>
-                    <h1>Portfolio</h1>
-                    <h4>Recent Projects</h4>
+                    <h1>
+                        <i>Portfolio</i>{" "}
+                    </h1>
+                    <h4>
+                        {" "}
+                        <i>Recent Projects</i>
+                    </h4>
                 </Col>
             </Row>
             <Container className='mt-4'>

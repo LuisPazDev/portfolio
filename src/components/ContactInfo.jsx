@@ -13,7 +13,7 @@ export const ContactInfo = () => {
                     alt='gmailllogo'
                 />
                 <div>
-                    <h3>Email</h3>
+                    <h3 className='contact-info-title'>Email</h3>
                     <p>luispazdev@gmail.com</p>
                 </div>
             </div>
@@ -24,8 +24,13 @@ export const ContactInfo = () => {
                     alt='linkedinlogo'
                 />
                 <div>
-                    <h3>Linkedin</h3>
-                    <p>https://www.linkedin.com/in/luispazdev/</p>
+                    <h3 className='contact-info-title'>Linkedin</h3>
+                    <a
+                        href='https://www.linkedin.com/in/luispazdev/'
+                        target='_blank'
+                        rel='noopener noreferrer'>
+                        https://www.linkedin.com/in/luispazdev/
+                    </a>
                 </div>
             </div>
             <div className='container-contact-logo'>
@@ -35,8 +40,13 @@ export const ContactInfo = () => {
                     alt='githublogo'
                 />
                 <div>
-                    <h3>Github</h3>
-                    <p>https://github.com/LuisPazDev</p>
+                    <h3 className='contact-info-title'>Github</h3>
+                    <a
+                        href='https://github.com/LuisPazDev'
+                        target='_blank'
+                        rel='noopener noreferrer'>
+                        https://github.com/LuisPazDev
+                    </a>
                 </div>
             </div>
         </Container>

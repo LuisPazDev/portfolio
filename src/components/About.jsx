@@ -5,7 +5,9 @@ import "../styles/About.css"
 export const About = () => {
     return (
         <Container fluid id='about' className='container-about p-5 mt-3 mb-5'>
-            <h1 className='about-title p-5'>About Me</h1>
+            <h1 className='about-title p-5'>
+                <i>About Me</i>{" "}
+            </h1>
             <div className='ms-5 me-5 p-3'>
                 <p className='about-text'>
                     I am a{" "}
