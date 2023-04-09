@@ -8,7 +8,7 @@ export const About = () => {
             <h1 className='about-title p-5'>
                 <i>About Me</i>{" "}
             </h1>
-            <div className='ms-5 me-5 p-3'>
+            <div className='p-3'>
                 <p className='about-text'>
                     I am a{" "}
                     <strong>
