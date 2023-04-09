@@ -19,7 +19,10 @@ export const ContactForm = () => {
 
     const handleSubmit = async (event) => {
         event.preventDefault()
-        console.log(input)
+        if (!input.name || !input.email || !input.message) {
+            alert("Please fill out all fields")
+            return
+        }
         try {
             const comment = collection(db, "contact")
             const res = await addDoc(comment, input)
