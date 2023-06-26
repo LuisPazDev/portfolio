@@ -1,39 +1,39 @@
 .container-skills {
-    background: url(../assets/skillsbg.png);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  background: url(../assets/skillsbg.png);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .skills-title {
-    background: rgba(0, 0, 0, 0.164);
-    color: #ffffff;
-    text-align: center;
+  background: rgba(0, 0, 0, 0.164);
+  color: #ffffff;
+  text-align: center;
 }
 
 li {
-    list-style: none;
+  list-style: none;
 }
 
 .skills-list {
-    background: rgba(0, 0, 0, 0.171);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #ffffff;
-    font-size: 22px;
-    font-weight: 700;
+  background: rgba(0, 0, 0, 0.171);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 700;
 }
 
 .skills-col {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .skills-logo {
-    width: 40px;
-    height: 40px;
-    border-radius: 10px;
+  width: 30px;
+  height: 30px;
+  border-radius: 10px;
 }

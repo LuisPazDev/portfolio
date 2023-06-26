@@ -4,6 +4,7 @@
     "version": "0.1.0",
     "private": true,
     "dependencies": {
+        "animate.css": "^4.1.1",
         "bootstrap": "^5.2.3",
         "dotenv": "^16.0.3",
         "firebase": "^9.19.1",

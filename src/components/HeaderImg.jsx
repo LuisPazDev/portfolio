@@ -1,13 +1,13 @@
-import React from "react"
-import { Container } from "react-bootstrap"
-import luisimg from "../assets/luispazdevmain.png"
+import React from "react";
+import { Container } from "react-bootstrap";
+import luisimg from "../assets/luispazdevmain.png";
 
 export const HeaderImg = () => {
-    return (
-        <Container className='container-headerimg mt-3 mb-3 p-4'>
-            <div className='container-img'>
-                <img src={luisimg} alt='luispazdev' className='img-header' />
-            </div>
-        </Container>
-    )
-}
+  return (
+    <Container className="container-headerimg mt-5 p-2">
+      <div className="container-img">
+        <img src={luisimg} alt="luispazdev" className="img-header" />
+      </div>
+    </Container>
+  );
+};

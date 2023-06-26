@@ -1,28 +1,28 @@
 .container-header {
-    color: white;
-    background: linear-gradient(180deg, #021852 0%, #230f3e 100%);
+  color: white;
+  background: linear-gradient(180deg, #021852 0%, #230f3e 100%);
 }
 
 .container-headertext {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .container-headerimg {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .img-header {
-    max-width: 400px;
-    border-radius: 50px;
+  max-width: 250px;
+  border-radius: 100px;
 }
 
 .btn {
-    background-color: black;
-    color: white;
-    font-size: 18px;
-    font-weight: 500;
+  background-color: black;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
 }
