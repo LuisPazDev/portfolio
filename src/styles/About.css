@@ -6,7 +6,7 @@
 }
 
 .about-title {
-  color: #08a689;
+  color: #4ddac0;
 }
 
 .about-text {
@@ -14,4 +14,9 @@
   text-align: justify;
   font-size: 18px;
   line-height: 30px;
+}
+
+.about-icon {
+  width: 30px;
+  height: 30px;
 }

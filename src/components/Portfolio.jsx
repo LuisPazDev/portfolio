@@ -6,8 +6,8 @@ import { ProjectCard3 } from "./ProjectCard3";
 
 export const Portfolio = () => {
   return (
-    <Container fluid id="portfolio" className="container-portfolio p-5">
-      <Row className="mt-4 mb-5">
+    <Container fluid id="portfolio" className="container-portfolio p-3">
+      <Row className=" mb-5">
         <Col className="text-center mt-3">
           <h1>
             <i>Portfolio</i>{" "}
