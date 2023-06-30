@@ -7,7 +7,7 @@ export const HeaderText = () => {
         <h4>Hi There!</h4>
         <h1>I’m Luis Paz</h1>
         <h5>
-          <h4>A Passionate Frontend Web Developer</h4>
+          <h4>A Frontend Web Developer</h4>
           specialized in MERN stack with a lot of passion for programming and
           provide Web Solutions with hight impact
         </h5>

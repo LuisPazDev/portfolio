@@ -30,7 +30,12 @@ export const ProjectCard = () => {
                     {project.title}
                   </Card.Title>
                   <Card.Text>{project.description}</Card.Text>
-                  <Button variant="dark" href={project.link} target="_blank">
+                  <Button
+                    variant="dark"
+                    size="lg"
+                    href={project.link}
+                    target="_blank"
+                  >
                     Go there
                   </Button>
                 </Card.ImgOverlay>
