@@ -1,8 +1,6 @@
+import { ProjectCard } from "./ProjectCard";
 import { Col, Container, Row } from "react-bootstrap";
 import "../styles/Portfolio.css";
-import { ProjectCard1 } from "./ProjectCard1";
-import { ProjectCard2 } from "./ProjectCard2";
-import { ProjectCard3 } from "./ProjectCard3";
 
 export const Portfolio = () => {
   return (
@@ -18,19 +16,7 @@ export const Portfolio = () => {
           </h4>
         </Col>
       </Row>
-      <Container className="mt-4">
-        <Row className="mt-4 mb-2" xs={1} sm={1} md={2} lg={3} xl={3}>
-          <Col className="d-flex justify-content-center align-items-center mb-5">
-            <ProjectCard1 />
-          </Col>
-          <Col className="d-flex justify-content-center align-items-center mb-5">
-            <ProjectCard2 />
-          </Col>
-          <Col className="d-flex justify-content-center align-items-center mb-5">
-            <ProjectCard3 />
-          </Col>
-        </Row>
-      </Container>
+      <ProjectCard />
     </Container>
   );
 };
