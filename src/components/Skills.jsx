@@ -65,7 +65,7 @@ export const Skills = () => {
                   src={javascript}
                   alt="javascriptlogo"
                 />
-                <i>Javascript</i>
+                <i>JavaScript</i>
               </li>
               <li className="mb-4">
                 <img className="skills-logo me-1" src={react} alt="reactlogo" />
@@ -81,7 +81,7 @@ export const Skills = () => {
                   src={typescript}
                   alt="typescriptlogo"
                 />
-                <i>Typescript</i>
+                <i>TypeScript</i>
               </li>
             </ul>
           </Col>

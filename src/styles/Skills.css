@@ -1,4 +1,5 @@
 .container-skills {
+  background: rgba(0, 0, 0, 0.534);
   background: url(../assets/skillsbg.png);
   display: flex;
   flex-direction: column;
@@ -8,7 +9,6 @@
 }
 
 .skills-title {
-  background: rgba(0, 0, 0, 0.164);
   color: #ffffff;
   text-align: center;
 }
@@ -18,7 +18,6 @@ li {
 }
 
 .skills-list {
-  background: rgba(0, 0, 0, 0.171);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -34,7 +33,7 @@ li {
 }
 
 .skills-logo {
-  width: 30px;
-  height: 30px;
+  width: 35px;
+  height: 35px;
   border-radius: 10px;
 }
