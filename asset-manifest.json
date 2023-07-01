@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.54dabbe1.css",
-    "main.js": "/portfolio/static/js/main.c8371aa5.js",
+    "main.css": "/portfolio/static/css/main.7d420635.css",
+    "main.js": "/portfolio/static/js/main.df31f45a.js",
     "static/media/djstore.png": "/portfolio/static/media/djstore.d406417dff1e6eed2ff0.png",
     "static/media/pizzapp.png": "/portfolio/static/media/pizzapp.d0a89027337f1a2dc4f5.png",
-    "static/media/skillsbg.png": "/portfolio/static/media/skillsbg.8674d923288c9b656ce9.png",
     "static/media/contact.png": "/portfolio/static/media/contact.b006ac35720491ceee4b.png",
+    "static/media/skillsbg.png": "/portfolio/static/media/skillsbg.58b77c38778dba15021c.png",
+    "static/media/aboutbg.jpg": "/portfolio/static/media/aboutbg.9052b2abd70edbfb8d94.jpg",
     "static/media/luispazdevmain.png": "/portfolio/static/media/luispazdevmain.6bf91a63049978235858.png",
     "static/media/easyshoes.png": "/portfolio/static/media/easyshoes.949e437ceee96e1a97fc.png",
     "static/media/sass.svg": "/portfolio/static/media/sass.4aec5b382169dfda34bb98650dfe65ca.svg",
@@ -26,11 +27,11 @@
     "static/media/html.svg": "/portfolio/static/media/html.0107c93943a8f415b5db64ebb0a9d12d.svg",
     "static/media/coder.svg": "/portfolio/static/media/coder.40eb37ad30175c784d609ac68ebed6ed.svg",
     "static/media/vue.svg": "/portfolio/static/media/vue.2b520303788d88b4e0c3776cd07cd61f.svg",
-    "main.54dabbe1.css.map": "/portfolio/static/css/main.54dabbe1.css.map",
-    "main.c8371aa5.js.map": "/portfolio/static/js/main.c8371aa5.js.map"
+    "main.7d420635.css.map": "/portfolio/static/css/main.7d420635.css.map",
+    "main.df31f45a.js.map": "/portfolio/static/js/main.df31f45a.js.map"
   },
   "entrypoints": [
-    "static/css/main.54dabbe1.css",
-    "static/js/main.c8371aa5.js"
+    "static/css/main.7d420635.css",
+    "static/js/main.df31f45a.js"
   ]
 }
