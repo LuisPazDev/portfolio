@@ -8,12 +8,12 @@ import icon from "../assets/coder.svg";
 export const About = () => {
   return (
     <Container fluid id="about" className="mt-4">
-      <div className="text-center">
+      <div className="text-center p-2">
         <h1 className="about-title">
           <i>About Me</i>
         </h1>
       </div>
-      <Row className="mt-2">
+      <Row className="mt-1">
         <Row className="text-center mb-3">
           <h5>
             <i>Self-taught frontend developer</i>
@@ -41,8 +41,8 @@ export const About = () => {
               <li>
                 <img src={icon} className="about-icon" />
                 <i>
-                  Proficient in Git, MongoDB, Firebase, Express.js, Bootstrap,
-                  Material-UI, Tailwind.
+                  Proficient in Git, MongoDB, Firebase, Express.js,
+                  Bootstrap,Material-UI, Tailwind.
                 </i>
               </li>
               <li>
@@ -66,7 +66,7 @@ export const About = () => {
         </Col>
       </Row>
       <Row className="mt-4 text-center">
-        <div className="about-text">
+        <div className="about-text p-3">
           <h5>
             <i>
               Let's Connect!
