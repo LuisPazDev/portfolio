@@ -6,12 +6,15 @@ import ilustration from "../assets/aboutbg.jpg"
 import icon from "../assets/coder.svg"
 import html from "../assets/html.svg"
 import css from "../assets/css.svg"
+import sass from "../assets/sass.svg"
 import js from "../assets/js.svg"
 import react from "../assets/react.svg"
+import redux from "../assets/redux.svg"
 import node from "../assets/node.svg"
 import mongo from "../assets/mongo.svg"
 import express from "../assets/express.svg"
 import firebase from "../assets/firebase.svg"
+import git from "../assets/git.svg"
 import typescript from "../assets/typescript.svg"
 
 export const About = () => {
@@ -51,109 +54,177 @@ export const About = () => {
                             </strong>
                         </p>
 
-                        <Row className='ps-5 pe-5'>
+                        {/*  first Row */}
+                        <Row className='ps-4 pe-4'>
                             <Col className='text-center'>
-                                <img
-                                    className='about-icon mb-1'
-                                    src={html}
-                                    alt='html'
-                                />
-                                <h6>
+                                <div>
+                                    <img
+                                        className='about-icon mb-1'
+                                        src={html}
+                                        alt='html'
+                                    />
+                                </div>
+
+                                <small>
                                     <i>Html</i>
-                                </h6>
+                                </small>
                             </Col>
                             <Col className='text-center'>
-                                <img
-                                    className='about-icon mb-1'
-                                    src={css}
-                                    alt='css'
-                                />
-                                <h6>
+                                <div>
+                                    <img
+                                        className='about-icon mb-1'
+                                        src={css}
+                                        alt='css'
+                                    />
+                                </div>
+
+                                <small>
                                     <i>Css</i>
-                                </h6>
+                                </small>
                             </Col>
                             <Col className='text-center'>
-                                <img
-                                    className='about-icon mb-1'
-                                    src={js}
-                                    alt='js'
-                                />
-                                <h6>
+                                <div>
+                                    <img
+                                        className='about-icon mb-1'
+                                        src={sass}
+                                        alt='sass'
+                                    />
+                                </div>
+
+                                <small>
+                                    <i>Sass</i>
+                                </small>
+                            </Col>
+                            <Col className='text-center'>
+                                <div>
+                                    <img
+                                        className='about-icon mb-1'
+                                        src={js}
+                                        alt='js'
+                                    />
+                                </div>
+
+                                <small>
                                     <i>JavaScript</i>
-                                </h6>
+                                </small>
                             </Col>
                         </Row>
 
                         {/*  second Row */}
-                        <Row className='ps-5 pe-5 mt-3'>
+                        <Row className='ps-4 pe-4 mt-3'>
                             <Col className='text-center'>
-                                <img
-                                    className='about-icon mb-1'
-                                    src={react}
-                                    alt='react'
-                                />
-                                <h6>
+                                <div>
+                                    <img
+                                        className='about-icon mb-1'
+                                        src={react}
+                                        alt='react'
+                                    />
+                                </div>
+
+                                <small>
                                     <i>React</i>
-                                </h6>
+                                </small>
                             </Col>
                             <Col className='text-center'>
-                                <img
-                                    className='about-icon mb-1'
-                                    src={node}
-                                    alt='node'
-                                />
-                                <h6>
+                                <div>
+                                    <img
+                                        className='about-icon mb-1'
+                                        src={node}
+                                        alt='node'
+                                    />
+                                </div>
+                                <small>
                                     <i>Node.js</i>
-                                </h6>
+                                </small>
                             </Col>
                             <Col className='text-center'>
-                                <img
-                                    className='about-icon mb-1'
-                                    src={mongo}
-                                    alt='mongo'
-                                />
-                                <h6>
+                                <div>
+                                    <img
+                                        className='about-icon mb-1'
+                                        src={redux}
+                                        alt='redux'
+                                    />
+                                </div>
+
+                                <small>
+                                    <i>Redux</i>
+                                </small>
+                            </Col>
+                            <Col className='text-center'>
+                                <div>
+                                    <img
+                                        className='about-icon mb-1'
+                                        src={mongo}
+                                        alt='mongo'
+                                    />
+                                </div>
+
+                                <small>
                                     <i>MongoDB</i>
-                                </h6>
+                                </small>
                             </Col>
                         </Row>
 
                         {/*  third Row */}
-                        <Row className='ps-5 pe-5 mt-3'>
+                        <Row className='ps-4 pe-4 mt-3'>
                             <Col className='text-center'>
-                                <img
-                                    className='about-icon mb-1'
-                                    src={express}
-                                    alt='express'
-                                />
-                                <h6>
-                                    <i>Express.js</i>
-                                </h6>
+                                <div>
+                                    <img
+                                        className='about-icon mb-1'
+                                        src={express}
+                                        alt='express'
+                                    />
+                                </div>
+
+                                <small>
+                                    <i>Express</i>
+                                </small>
                             </Col>
                             <Col className='text-center'>
-                                <img
-                                    className='about-icon mb-1'
-                                    src={firebase}
-                                    alt='firebase'
-                                />
-                                <h6>
+                                <div>
+                                    <img
+                                        className='about-icon mb-1'
+                                        src={firebase}
+                                        alt='firebase'
+                                    />
+                                </div>
+
+                                <small>
                                     <i>Firebase</i>
-                                </h6>
+                                </small>
                             </Col>
                             <Col className='text-center'>
-                                <img
-                                    className='about-icon mb-1'
-                                    src={typescript}
-                                    alt='ts'
-                                />
-                                <h6>
+                                <div>
+                                    <img
+                                        className='about-icon mb-1'
+                                        src={git}
+                                        alt='git'
+                                    />
+                                </div>
+
+                                <small>
+                                    <i>Git</i>
+                                </small>
+                            </Col>
+                            <Col className='text-center'>
+                                <div>
+                                    <img
+                                        className='about-icon mb-1'
+                                        src={typescript}
+                                        alt='ts'
+                                    />
+                                </div>
+
+                                <small>
                                     <i>TypeScript</i>
-                                </h6>
+                                </small>
                             </Col>
                         </Row>
                     </div>
                 </Col>
-                <Col className='d-flex justify-content-center align-items-center'>
+
+                {/*  Ilustration Col */}
+                <Col className='d-flex justify-content-center align-items-center p-3'>
                     <Image
                         roundedCircle
                         src={ilustration}
