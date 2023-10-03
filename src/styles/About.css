@@ -1,20 +1,20 @@
 .about-title {
-  color: #4ddac0;
+    color: #4ddac0;
 }
 
 .about-text {
-  color: #282828;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 30px;
+    color: #282828;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
 }
 
 .about-icon {
-  width: 40px;
-  height: 40px;
+    width: 40px;
+    height: 40px;
 }
 
 .about-img {
-  width: 400px;
-  height: 420px;
+    width: 400px;
+    height: 420px;
 }
