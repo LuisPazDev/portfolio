@@ -2,8 +2,8 @@ import { Button, Container } from "react-bootstrap"
 
 export const HeaderText = () => {
     return (
-        <Container className='container-headertex'>
-            <div className='container-text mt-4 mb-4 p-3'>
+        <>
+            <div>
                 <h4>Hi There!</h4>
                 <h1>I’m Luis Paz</h1>
                 <h5>
@@ -12,15 +12,20 @@ export const HeaderText = () => {
                     programming and provide Web and Mobile Solutions with hight
                     impact
                 </h5>
+                <div className='mt-5 mb-4'>
+                    <Button
+                        style={{
+                            backgroundColor: "black",
+                            border: "none",
+                        }}
+                        size='lg'
+                        href='#portfolio'>
+                        <strong>
+                            <i>Portfolio</i>
+                        </strong>
+                    </Button>
+                </div>
             </div>
-
-            <div>
-                <Button variant='dark' size='lg' href='#portfolio'>
-                    <strong>
-                        <i>Portfolio</i>
-                    </strong>
-                </Button>
-            </div>
-        </Container>
+        </>
     )
 }
