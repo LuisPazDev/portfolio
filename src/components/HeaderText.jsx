@@ -1,4 +1,4 @@
-import { Container } from "react-bootstrap"
+import { Button, Container } from "react-bootstrap"
 
 export const HeaderText = () => {
     return (
@@ -12,6 +12,14 @@ export const HeaderText = () => {
                     programming and provide Web and Mobile Solutions with hight
                     impact
                 </h5>
+            </div>
+
+            <div>
+                <Button variant='dark' size='lg' href='#portfolio'>
+                    <strong>
+                        <i>Portfolio</i>
+                    </strong>
+                </Button>
             </div>
         </Container>
     )
