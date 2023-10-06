@@ -1,5 +1,5 @@
 import { ProjectCard } from "./ProjectCard"
-import { Col, Container, Row } from "react-bootstrap"
+import { Badge, Col, Container, Row } from "react-bootstrap"
 import "../styles/Portfolio.css"
 
 export const Portfolio = () => {
@@ -11,13 +11,15 @@ export const Portfolio = () => {
             className='container-portfolio p-3'>
             <Row className=' mb-5'>
                 <Col className='text-center mt-3'>
-                    <h1>
-                        <i>Portfolio</i>{" "}
-                    </h1>
-                    <h4>
+                    <h2>
+                        <Badge pill bg='dark'>
+                            Portfolio
+                        </Badge>
+                    </h2>
+                    <h5>
                         {" "}
                         <i>Recent Projects</i>
-                    </h4>
+                    </h5>
                 </Col>
             </Row>
             <ProjectCard />
