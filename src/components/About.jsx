@@ -1,5 +1,5 @@
 import React from "react"
-import { Container, Button, Row, Col } from "react-bootstrap"
+import { Container, Button, Row, Col, Badge } from "react-bootstrap"
 
 import "../styles/About.css"
 import ilustration from "../assets/aboutbg.jpg"
@@ -21,52 +21,65 @@ export const About = () => {
     return (
         <Container fluid id='about' className='mt-4'>
             <div className='text-center p-2 mb-4'>
-                <h1 className='about-title'>
-                    <i>About Me</i>
-                </h1>
+                <h2>
+                    <Badge pill bg='dark'>
+                        About Me
+                    </Badge>
+                </h2>
                 <h5>
                     <i>Self-taught frontend developer</i>
                 </h5>
             </div>
             <Row xs={1} md={1} lg={2}>
                 <Col className='d-flex justify-content-center align-items-center mt-3 mb-4 ps-3 pe-3'>
-                    <div className='about-text'>
-                        <p>
-                            <img src={icon} className='about-icon me-2' />
-
-                            <i> Two years experience in web development.</i>
-                        </p>
-
-                        <p>
-                            <img src={icon} className='about-icon me-2' />
-
-                            <i>Websites using Html, Css, Javascript.</i>
-                        </p>
-                        <p>
-                            <img src={icon} className='about-icon me-2' />
-
-                            <i>Web applications using React.js, Node.js.</i>
-                        </p>
-
-                        <p>
-                            <img src={icon} className='about-icon me-2' />
-
-                            <i>Restful APIs with Express.js, MongoDB.</i>
-                        </p>
-                        <p>
-                            <img src={icon} className='about-icon me-2' />
-
-                            <i>Developed mobil apps using React Native.</i>
-                        </p>
-                        <p>
-                            <img src={icon} className='about-icon me-2' />
-
+                    <ul>
+                        <h5 className='mb-4 mt-1'>
+                            <strong>
+                                <i>
+                                    <u>Two years of experience including:</u>
+                                </i>
+                            </strong>
+                        </h5>
+                        <li className='mb-3'>
                             <i>
-                                {" "}
-                                Utel University Web Full Stack Certification.
+                                Developing websites with HTML, CSS, and
+                                JavaScript.
                             </i>
-                        </p>
-                    </div>
+                        </li>
+                        <li className='mb-3'>
+                            <i>
+                                Developing web applications using React.js and
+                                Node.js.
+                            </i>
+                        </li>
+                        <li className='mb-3'>
+                            <i>
+                                Building and deploying web applications using
+                                Firebase.
+                            </i>
+                        </li>
+                        <li className='mb-3'>
+                            <i>Developing mobile apps with React Native.</i>
+                        </li>
+                        <li className='mb-3'>
+                            <i>
+                                Building RESTful APIs with Express.js and
+                                MongoDB.
+                            </i>
+                        </li>
+                        <li className='mb-3'>
+                            <i>
+                                Unit testing, integration testing, end-to-end
+                                testing.
+                            </i>
+                        </li>
+                        <li className='mb-3'>
+                            <i>
+                                Version control Using Git to track changes in
+                                code and collaborate with others.
+                            </i>
+                        </li>
+                    </ul>
                 </Col>
 
                 {/*  skills Col */}
@@ -245,11 +258,13 @@ export const About = () => {
                     </Row>
                 </Col>
             </Row>
-            <div className='text-center mt-5 mb-5'>
+            <div className='text-center mt-4 mb-5'>
                 <Button
+                    className='mt-3 mb-3'
                     size='lg'
                     style={{
                         backgroundColor: "black",
+                        border: "none",
                     }}>
                     <strong>
                         <i>
