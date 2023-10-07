@@ -44,7 +44,11 @@ export const ContactForm = () => {
             fluid
             className='d-flex flex-column justify-content-center align-items-center'>
             <Form
-                style={{ backgroundColor: "#F5F5F5" }}
+                style={{
+                    maxWidth: "600px",
+                    backgroundColor: "#212529",
+                    color: "white",
+                }}
                 className='mt-3 border border-dark rounded p-4'
                 id='form'>
                 <Row>
@@ -113,7 +117,10 @@ export const ContactForm = () => {
                     <div className='text-center mt-3'>
                         <Button
                             onClick={handleSubmit}
-                            variant='dark'
+                            style={{
+                                backgroundColor: "black",
+                                border: "white solid 1px",
+                            }}
                             className='mt-3 mb-3'
                             size='lg'
                             type='submit'>

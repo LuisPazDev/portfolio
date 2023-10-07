@@ -1,8 +1,7 @@
 import { ProjectCard } from "./ProjectCard"
 import { Badge, Col, Container, Row } from "react-bootstrap"
 
-import bgportfolio from "../assets/bgabout.png"
-import "../styles/Portfolio.css"
+import bgportfolio from "../assets/bgportfolio.png"
 
 export const Portfolio = () => {
     return (
@@ -16,16 +15,23 @@ export const Portfolio = () => {
             }}
             id='portfolio'
             className='container-portfolio p-3'>
-            <Row className=' mb-5'>
+            <Row className=' mb-3'>
                 <Col className='text-center mt-4'>
                     <h2>
                         <Badge pill bg='dark'>
                             Portfolio
                         </Badge>
                     </h2>
+                    <h5 className='text-white'>
+                        <i>Recent Projects</i>
+                    </h5>
                 </Col>
             </Row>
-            <ProjectCard />
+            <Row>
+                <Col>
+                    <ProjectCard />
+                </Col>
+            </Row>
         </Container>
     )
 }

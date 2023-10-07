@@ -15,12 +15,12 @@ export const HeaderText = () => {
                     for programming and provide Web and Mobile Solutions with
                     high impact.
                 </h5>
-                <div className='mt-5 mb-4 d-flex justify-content-center justify-content-sm-start'>
+                <div className='mt-5 mb-4 d-flex justify-content-center justify-content-sm-start justify-content-md-center'>
                     <Button
                         className='mt-3'
                         style={{
                             backgroundColor: "black",
-                            borderColor: "black",
+                            border: "white solid 1px",
                         }}
                         size='lg'
                         href='#portfolio'>

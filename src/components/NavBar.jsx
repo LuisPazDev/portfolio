@@ -8,7 +8,7 @@ import logo from "../assets/luispazdevlogo.svg"
 
 export const NavBar = () => {
     return (
-        <Navbar collapseOnSelect expand='md' className='nav-bar' variant='dark'>
+        <Navbar collapseOnSelect expand='lg' className='nav-bar' variant='dark'>
             <Container fluid className='ms-4 me-4'>
                 <Navbar.Brand href='#home'>
                     <img src={logo} alt='logo' className='logo' />

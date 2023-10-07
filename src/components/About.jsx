@@ -18,9 +18,9 @@ import typescript from "../assets/typescript.svg"
 
 export const About = () => {
     return (
-        <Container fluid id='about' className='mt-4'>
+        <Container fluid id='about'>
             <div className='text-center p-2 mb-4'>
-                <h2>
+                <h2 className='mt-4'>
                     <Badge pill bg='dark'>
                         About Me
                     </Badge>
@@ -83,7 +83,7 @@ export const About = () => {
 
                 {/*  skills Col */}
                 <Col className='ps-4 pe-4 mt-3'>
-                    <Row className='ps-4 pe-4'>
+                    <Row className='ps-4 pe-4 text-center'>
                         <h5 className='mb-5'>
                             <strong>
                                 <i>
@@ -257,8 +257,8 @@ export const About = () => {
                     </Row>
                 </Col>
             </Row>
-            <div className='text-center mt-4 mb-5'>
-                <Button className='mt-3 mb-3' size='lg' variant='dark'>
+            <div className='text-center mt-2'>
+                <Button className='mt-3 mb-5' size='lg' variant='dark'>
                     <strong>
                         <i>Download CV</i>
                     </strong>
