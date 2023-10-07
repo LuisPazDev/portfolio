@@ -14,7 +14,7 @@ export const ProjectCard = () => {
                         maxWidth: "300px",
                         border: "none",
                     }}
-                    className='mt-5 mx-auto shadow-lg mb-4 rounded'
+                    className='mt-5 mx-auto shadow-lg mb-5 rounded'
                     onMouseEnter={() => setHoveredIndex(index)}
                     onMouseLeave={() => setHoveredIndex(-1)}>
                     <Card.Img
@@ -33,7 +33,7 @@ export const ProjectCard = () => {
                             <Button
                                 className='mt-3'
                                 variant='outline-light'
-                                size='md'
+                                size='lg'
                                 href={project.link}
                                 target='_blank'>
                                 <strong>

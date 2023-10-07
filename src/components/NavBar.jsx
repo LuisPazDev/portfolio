@@ -11,7 +11,7 @@ export const NavBar = () => {
         <Navbar collapseOnSelect expand='lg' className='nav-bar' variant='dark'>
             <Container fluid className='ms-4 me-4'>
                 <Navbar.Brand href='#home'>
-                    <img src={logo} alt='logo' className='logo' />
+                    <img src={logo} alt='logo' />
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls='responsive-navbar-nav'>
                     <img

@@ -258,7 +258,7 @@ export const About = () => {
                 </Col>
             </Row>
             <div className='text-center mt-2'>
-                <Button className='mt-3 mb-5' size='lg' variant='dark'>
+                <Button className='mt-4 mb-5' size='lg' variant='dark'>
                     <strong>
                         <i>Download CV</i>
                     </strong>
