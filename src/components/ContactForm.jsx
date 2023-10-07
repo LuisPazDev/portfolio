@@ -44,22 +44,10 @@ export const ContactForm = () => {
             fluid
             className='d-flex flex-column justify-content-center align-items-center'>
             <Form
-                style={{
-                    backgroundColor: "#D9D9D9",
-                    color: "#000000",
-                }}
+                style={{ backgroundColor: "#F5F5F5" }}
                 className='mt-3 border border-dark rounded p-4'
                 id='form'>
                 <Row>
-                    <Col className='text-center mb-4'>
-                        <h5>
-                            <strong>
-                                <i>
-                                    <u>Send me a Message</u>
-                                </i>
-                            </strong>
-                        </h5>
-                    </Col>
                     <Col xs={12} md={6} lg={6} className='mb-3'>
                         <Form.Group controlId='formBasicName'>
                             <Form.Label>
@@ -138,14 +126,14 @@ export const ContactForm = () => {
             </Form>
             <Row className='mt-5'>
                 <Col>
-                    <h5>
+                    <h4 className='text-white'>
                         <strong>
                             <i>Social Media</i>
                         </strong>
-                    </h5>
+                    </h4>
                 </Col>
             </Row>
-            <Row className='mt-5'>
+            <Row className='mt-4 mb-4'>
                 <Col>
                     <a
                         href='https://github.com/LuisPazDev'

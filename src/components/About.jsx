@@ -2,8 +2,7 @@ import React from "react"
 import { Container, Button, Row, Col, Badge } from "react-bootstrap"
 
 import "../styles/About.css"
-import ilustration from "../assets/aboutbg.jpg"
-import icon from "../assets/coder.svg"
+
 import html from "../assets/html.svg"
 import css from "../assets/css.svg"
 import sass from "../assets/sass.svg"
@@ -259,17 +258,9 @@ export const About = () => {
                 </Col>
             </Row>
             <div className='text-center mt-4 mb-5'>
-                <Button
-                    className='mt-3 mb-3'
-                    size='lg'
-                    style={{
-                        backgroundColor: "black",
-                        border: "none",
-                    }}>
+                <Button className='mt-3 mb-3' size='lg' variant='dark'>
                     <strong>
-                        <i>
-                            Download CV <i class='fas fa-download'></i>
-                        </i>
+                        <i>Download CV</i>
                     </strong>
                 </Button>
             </div>

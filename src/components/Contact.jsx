@@ -3,24 +3,30 @@ import { Container, Row, Col, Badge } from "react-bootstrap"
 import { ContactForm } from "./ContactForm"
 
 import "../styles/Contact.css"
+import bgcontact from "../assets/bg-contact.png"
 
 export const Contact = () => {
     return (
-        <Container fluid id='contact' className='container-contact p-3'>
-            <Row className='text-center mt-3 mb-4 p-2'>
+        <Container
+            style={{
+                backgroundImage: `url(${bgcontact})`,
+                backgroundRepeat: "no-repeat",
+                backgroundSize: "cover",
+                backgroundPosition: "center",
+            }}
+            fluid
+            id='contact'
+            className=''>
+            <Row className='text-center p-2'>
                 <Col>
-                    <h2>
+                    <h2 className='mt-4'>
                         <Badge pill bg='dark'>
                             <i>Contact Me</i>
                         </Badge>
                     </h2>
-                    <h5>
-                        {" "}
-                        <i>Get In Touch</i>
-                    </h5>
                 </Col>
             </Row>
-            <Row className='mt-2 mb-4 p-3'>
+            <Row className='p-3'>
                 <Col>
                     <ContactForm />
                 </Col>

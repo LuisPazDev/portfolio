@@ -20,7 +20,7 @@ export const HeaderText = () => {
                         className='mt-3'
                         style={{
                             backgroundColor: "black",
-                            border: "none",
+                            borderColor: "black",
                         }}
                         size='lg'
                         href='#portfolio'>
