@@ -14,7 +14,7 @@ export const ProjectCard = () => {
                         maxWidth: "300px",
                         border: "none",
                     }}
-                    className='mt-5 mx-auto shadow-lg mb-5 rounded'
+                    className='mt-5 mx-auto mb-5 rounded'
                     onMouseEnter={() => setHoveredIndex(index)}
                     onMouseLeave={() => setHoveredIndex(-1)}>
                     <Card.Img
