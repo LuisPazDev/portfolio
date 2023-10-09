@@ -6,6 +6,7 @@ import { Container, Form, Button, Col, Row } from "react-bootstrap"
 import gmail from "../assets/gmail.svg"
 import linkedin from "../assets/linkedin.svg"
 import github from "../assets/github.svg"
+import swal from "sweetalert"
 
 export const ContactForm = () => {
     const [input, setInput] = useState({})
@@ -16,27 +17,34 @@ export const ContactForm = () => {
         setInput((values) => ({ ...values, [name]: value }))
     }
 
-    const clearForm = () => {
-        document.getElementById("contact-form").reset()
-    }
-
     const handleSubmit = async (event) => {
         event.preventDefault()
-        if (!input.name || !input.email || !input.message) {
-            alert("Please fill out all fields")
-            return
-        }
         try {
             const comment = collection(db, "contact")
             const res = await addDoc(comment, input)
-            alert("Message sent successfully")
             clearForm()
+            swal({
+                title: "Message sent!",
+                text: "I will get back to you as soon as possible",
+                icon: "success",
+                button: false,
+                timer: 2000,
+            })
             return res
         } catch (error) {
-            alert("Error sending message")
+            swal({
+                title: "Error!",
+                text: "Something went wrong, please try again",
+                icon: "error",
+                button: "Ok",
+            })
             clearForm()
             console.log(error)
         }
+    }
+
+    const clearForm = () => {
+        document.getElementById("form").reset()
     }
 
     return (
@@ -50,7 +58,10 @@ export const ContactForm = () => {
                     color: "white",
                 }}
                 className='mt-3 border border-dark rounded p-4'
-                id='form'>
+                id='form'
+                onSubmit={handleSubmit}>
+                {" "}
+                {/* add onSubmit attribute */}
                 <Row>
                     <Col xs={12} md={6} lg={6} className='mb-3'>
                         <Form.Group controlId='formBasicName'>
@@ -116,7 +127,6 @@ export const ContactForm = () => {
 
                     <div className='text-center mt-3'>
                         <Button
-                            onClick={handleSubmit}
                             style={{
                                 backgroundColor: "black",
                                 border: "white solid 1px",
@@ -140,10 +150,10 @@ export const ContactForm = () => {
                     </h4>
                 </Col>
             </Row>
-            <Row className='mt-4 mb-4'>
+            <Row className='mt-4 mb-5'>
                 <Col>
                     <a
-                        href='https://github.com/LuisPazDev'
+                        href='mailto:luispazdev@gmail.com'
                         target='_blank'
                         rel='noopener noreferrer'>
                         <img
@@ -152,7 +162,7 @@ export const ContactForm = () => {
                                 height: "50px",
                             }}
                             src={gmail}
-                            alt=''
+                            alt='gmaillogo'
                         />
                     </a>
                 </Col>
@@ -167,7 +177,7 @@ export const ContactForm = () => {
                                 height: "50px",
                             }}
                             src={linkedin}
-                            alt=''
+                            alt='linkedinlogo'
                         />
                     </a>
                 </Col>
@@ -182,7 +192,7 @@ export const ContactForm = () => {
                                 height: "50px",
                             }}
                             src={github}
-                            alt=''
+                            alt='githublogo'
                         />
                     </a>
                 </Col>
