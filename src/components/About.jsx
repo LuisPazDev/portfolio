@@ -261,7 +261,7 @@ export const About = () => {
             </Row>
             <div className='text-center mt-2'>
                 <a href={myCV} download>
-                    <Button className='mt-4 mb-5' size='lg' variant='dark'>
+                    <Button className='mt-5 mb-5' size='lg' variant='dark'>
                         <strong>
                             <i>Download CV</i>
                         </strong>
