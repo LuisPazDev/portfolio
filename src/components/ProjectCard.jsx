@@ -18,21 +18,21 @@ export const ProjectCard = () => {
                     onMouseEnter={() => setHoveredIndex(index)}
                     onMouseLeave={() => setHoveredIndex(-1)}>
                     <Card.Img
-                        style={{ height: "200px", width: "300px" }}
+                        style={{ height: "230px", width: "300px" }}
                         variant='top'
                         src={project.image}
                     />
                     {hoveredIndex === index && (
-                        <Card.Body className='bg-dark text-center'>
-                            <Card.Title className='text-start text-white'>
+                        <Card.Body className='bg-light text-center'>
+                            <Card.Title className='text-start text-black'>
                                 <u>{project.title}</u>
                             </Card.Title>
-                            <Card.Text className='text-white'>
+                            <Card.Text className='text-black'>
                                 <h6 className='mt-3'>{project.description}</h6>
                             </Card.Text>
                             <Button
                                 className='mt-3'
-                                variant='outline-light'
+                                variant='dark'
                                 size='lg'
                                 href={project.link}
                                 target='_blank'>

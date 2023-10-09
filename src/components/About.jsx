@@ -17,6 +17,8 @@ import git from "../assets/git.svg"
 import typescript from "../assets/typescript.svg"
 
 export const About = () => {
+    const myCV = require("../assets/LP-CV.pdf") // import the PDF file
+
     return (
         <Container fluid id='about'>
             <div className='text-center p-2 mb-4'>
@@ -32,7 +34,7 @@ export const About = () => {
             <Row xs={1} md={1} lg={2}>
                 <Col className='d-flex justify-content-center align-items-center mt-3 mb-4 ps-3 pe-3'>
                     <ul>
-                        <h5 className='mb-4 mt-1'>
+                        <h5 className='mb-5 mt-1'>
                             <strong>
                                 <i>
                                     <u>Two years of experience including:</u>
@@ -258,11 +260,13 @@ export const About = () => {
                 </Col>
             </Row>
             <div className='text-center mt-2'>
-                <Button className='mt-4 mb-5' size='lg' variant='dark'>
-                    <strong>
-                        <i>Download CV</i>
-                    </strong>
-                </Button>
+                <a href={myCV} download>
+                    <Button className='mt-4 mb-5' size='lg' variant='dark'>
+                        <strong>
+                            <i>Download CV</i>
+                        </strong>
+                    </Button>
+                </a>
             </div>
         </Container>
     )

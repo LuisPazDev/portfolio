@@ -23,9 +23,15 @@ export const NavBar = () => {
 
                 <Navbar.Collapse id='responsive-navbar-nav'>
                     <Nav className='ms-auto'>
-                        <Nav.Link href='#about'>About</Nav.Link>
-                        <Nav.Link href='#portfolio'>Portfolio</Nav.Link>
-                        <Nav.Link href='#contact'>Contact</Nav.Link>
+                        <Nav.Link className='text-white' href='#about'>
+                            About
+                        </Nav.Link>
+                        <Nav.Link className='text-white' href='#portfolio'>
+                            Portfolio
+                        </Nav.Link>
+                        <Nav.Link className='text-white' href='#contact'>
+                            Contact
+                        </Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>

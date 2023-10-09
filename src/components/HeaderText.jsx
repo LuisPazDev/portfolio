@@ -15,7 +15,7 @@ export const HeaderText = () => {
                     for programming and provide Web and Mobile Solutions with
                     high impact.
                 </h5>
-                <div className='mt-5 mb-4 d-flex justify-content-center justify-content-sm-start justify-content-md-center'>
+                <div className='mt-5 mb-4 d-flex justify-content-center justify-content-lg-start  justify-content-md-center'>
                     <Button
                         className='mt-3'
                         style={{
