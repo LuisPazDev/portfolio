@@ -28,9 +28,7 @@ export const Portfolio = () => {
                 </Col>
             </Row>
             <Row>
-                <Col>
-                    <ProjectCard />
-                </Col>
+                <ProjectCard />
             </Row>
         </Container>
     )
