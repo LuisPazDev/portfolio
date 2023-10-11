@@ -25,7 +25,7 @@ export const HeaderText = () => {
                         size='lg'
                         href='#portfolio'>
                         <strong>
-                            <i>Portfolio</i>
+                            <i>See Portfolio</i>
                         </strong>
                     </Button>
                 </div>

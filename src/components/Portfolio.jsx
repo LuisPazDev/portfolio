@@ -22,9 +22,9 @@ export const Portfolio = () => {
                             Portfolio
                         </Badge>
                     </h2>
-                    <h5 className='text-white'>
+                    <h4 className='text-white'>
                         <i>Recent Projects</i>
-                    </h5>
+                    </h4>
                 </Col>
             </Row>
             <Row>

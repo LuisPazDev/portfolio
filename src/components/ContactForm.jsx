@@ -60,7 +60,15 @@ export const ContactForm = () => {
                 className='mt-3 border border-dark rounded p-4'
                 id='form'
                 onSubmit={handleSubmit}>
-                {" "}
+                <div>
+                    <h5 className='text-center mb-5'>
+                        <strong>
+                            <u>
+                                <i>Send me a message</i>
+                            </u>
+                        </strong>
+                    </h5>
+                </div>{" "}
                 {/* add onSubmit attribute */}
                 <Row>
                     <Col xs={12} md={6} lg={6} className='mb-3'>

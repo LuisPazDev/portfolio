@@ -27,14 +27,14 @@ export const About = () => {
                         About Me
                     </Badge>
                 </h2>
-                <h5>
+                <h4>
                     <i>Self-taught frontend developer</i>
-                </h5>
+                </h4>
             </div>
             <Row xs={1} md={1} lg={2}>
                 <Col className='d-flex justify-content-center align-items-center mt-3 mb-4 ps-3 pe-3'>
                     <ul>
-                        <h5 className='mb-5 mt-1'>
+                        <h5 className='mb-4'>
                             <strong>
                                 <i>
                                     <u>Two years of experience including:</u>
@@ -84,7 +84,7 @@ export const About = () => {
                 </Col>
 
                 {/*  skills Col */}
-                <Col className='ps-4 pe-4 mt-3'>
+                <Col className='ps-4 pe-4 mt-2'>
                     <Row className='ps-4 pe-4 text-center'>
                         <h5 className='mb-5'>
                             <strong>
@@ -203,7 +203,7 @@ export const About = () => {
                     </Row>
 
                     {/*  third Row */}
-                    <Row className='ps-4 pe-4 mt-3'>
+                    <Row className='ps-4 pe-4 mt-3 mb-3'>
                         <Col className='text-center'>
                             <div>
                                 <img
@@ -261,7 +261,7 @@ export const About = () => {
             </Row>
             <div className='text-center mb-3'>
                 <a href={myCV} download>
-                    <Button className='mt-4 mb-5' size='lg' variant='dark'>
+                    <Button className='mt-5 mb-5' size='lg' variant='dark'>
                         <strong>
                             <i>Download CV</i>
                         </strong>
