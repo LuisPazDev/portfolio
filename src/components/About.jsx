@@ -28,7 +28,7 @@ export const About = () => {
                     </Badge>
                 </h2>
                 <h4>
-                    <i>Self-taught frontend developer</i>
+                    <i>Web and Mobil Developer</i>
                 </h4>
             </div>
             <Row xs={1} md={1} lg={2}>
